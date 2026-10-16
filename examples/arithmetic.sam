@@ -1,0 +1,7 @@
+// Computes (5 + 3) * 2 and leaves the result at address 0
+PUSHIMM 5
+PUSHIMM 3
+ADD
+PUSHIMM 2
+TIMES
+STOP
